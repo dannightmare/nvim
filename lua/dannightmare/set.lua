@@ -1,4 +1,4 @@
--- vim.opt.guicursor = ""
+vim.opt.guicursor="n-v-c:block"
 
 vim.opt.nu = true
 vim.opt.relativenumber = true
@@ -32,3 +32,4 @@ vim.opt.colorcolumn = "80"
 
 -- show hidden characters
 vim.cmd("set list")
+vim.cmd("set listchars=tab:>-,trail:⋅")
